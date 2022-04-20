@@ -187,10 +187,10 @@ div h4{
 ul li{
     color: black;
     font-weight: bold;
-    margin: 1rem;
+    list-style: none;
 }
 legend h2{
-    color: black;
+color: black;
 }
 .video{
     padding: 1rem;
@@ -262,18 +262,7 @@ ol li{
     margin-top: 20px;
     overflow: visible;
     border-radius: 100px;
-    border: 10px solid brown; 
-}
-.valores{
-    padding: 5rem;
-    margin: 5rem;
-    display: flex;
-    flex-direction: column;
-    text-align: center; 
-    list-style: none;
-    font-size: large;
-    background-color: #DAF7A6;
-    border: 2px solid brown;    
+    border: 10px solid brown;    
 }
 .fotos{
     color:#FFC300;
@@ -364,4 +353,8 @@ aside{
       width: 100%;
     }
 .elemento1 {transition: 10s;}
+  }
+.teamwork{
+    width: 600px;
+    height: 400px;
   }
